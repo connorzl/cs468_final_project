@@ -20,5 +20,7 @@ make -j6
 ### Code description
 
 `src/main.cpp` performs mesh I/O and visualization, calling the two scripts below. 
+
 `src/vector_heat.cpp` implements scalar diffusion and vector heat parallel transport.
+
 `src/weiszfeld.cpp` implements the Weiszfeld algorithm for computing geometric medians.
